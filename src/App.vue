@@ -3,7 +3,7 @@
     <header>
       <nav>
         <button @click="menu = 'todos'">Todos</button>
-        <button @click="menu = 'posts'">Post</button>
+        <button @click="menu = 'posts'">Posts</button>
       </nav>
     </header>
     <main>
@@ -35,12 +35,10 @@ header {
   background-color: #333;
   padding: 10px;
 }
-
 nav {
   display: flex;
   justify-content: space-around;
 }
-
 button {
   padding: 10px;
   cursor: pointer;
@@ -49,9 +47,7 @@ button {
   border: none;
   border-radius: 4px;
 }
-
 button:hover {
   background-color: #45a049;
 }
 </style>
-

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h2>Daftar Tugas</h2>
     <div v-for="tugas in tugasList" :key="tugas.id">
       <ToDoItem :todo="tugas" @toggle-status="toggleStatus" @hapus-item="hapusItem" />
     </div>
@@ -22,5 +23,5 @@ export default {
       this.$emit('hapus-item', tugas);
     }
   }
-}
+};
 </script>

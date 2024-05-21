@@ -17,11 +17,11 @@ export default {
       this.$emit('hapus-item', this.todo);
     }
   }
-}
+};
 </script>
 
 <style scoped>
 span {
-  cursor: pointer; /* Tambahkan kursor pointer agar lebih jelas */
+  cursor: pointer;
 }
 </style>
